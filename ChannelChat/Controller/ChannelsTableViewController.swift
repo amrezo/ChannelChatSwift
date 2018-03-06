@@ -39,7 +39,33 @@ class ChannelsTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
+        
+        if channels.count == 0 {
+            
+            // Placeholder creation, displayed when the tableView is empty
+            let placeholderTitle = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+            placeholderTitle.font = UIFont(name: "Avenir Next", size: CGFloat(integerLiteral: 27))
+            placeholderTitle.numberOfLines = 3
+            placeholderTitle.textColor = .black
+            placeholderTitle.center = CGPoint(x: 160, y: 284)
+            placeholderTitle.textAlignment = .center
+            placeholderTitle.text = "There are currently no channels.😞\nAdd one now!"
+            
+            // Remove separation line in tableView and add placeholder to its backgroundView
+            tableView.separatorStyle = .none
+            tableView.backgroundView = placeholderTitle
+            
+        } else {
+            
+            // Reset tableView to original settings and remove separatipn line in empty cells
+            tableView.backgroundView = UIView()
+            tableView.tableFooterView = UIView()
+            tableView.separatorStyle = .singleLine
+        }
+        
+        //Number of sections in this channel list
         return 1
+
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
