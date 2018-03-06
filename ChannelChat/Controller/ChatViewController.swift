@@ -120,6 +120,37 @@ class ChatViewController: JSQMessagesViewController {
             }
         })
     }
+    
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, attributedTextForMessageBubbleTopLabelAt indexPath: IndexPath!) -> NSAttributedString!
+    {
+        let message = messages[indexPath.item]
+        
+        if message.senderId == senderId {
+            return nil
+        } else {
+            guard let senderDisplayName = message.senderDisplayName else {
+                assertionFailure()
+                return nil
+            }
+            return NSAttributedString(string: senderDisplayName)
+            
+        }
+        
+    }
+    
+    override func collectionView(_ collectionView: JSQMessagesCollectionView!, layout collectionViewLayout: JSQMessagesCollectionViewFlowLayout!, heightForMessageBubbleTopLabelAt indexPath: IndexPath!) -> CGFloat
+    {
+        //return 17.0
+        let message = messages[indexPath.item]
+        
+        if message.senderId == senderId {
+            return 0.0
+        } else {
+            
+            return 17.0
+            
+        }
+    }
  
     
 }
