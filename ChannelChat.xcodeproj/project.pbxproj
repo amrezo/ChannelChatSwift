@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DF03E4FCDE2469D78768BF6 /* Pods_ChannelChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E314D0AB23712E02028E3CCA /* Pods_ChannelChat.framework */; };
 		B560500A204D3F11000953A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5605009204D3F11000953A0 /* AppDelegate.swift */; };
-		B560500C204D3F11000953A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560500B204D3F11000953A0 /* ViewController.swift */; };
+		B560500C204D3F11000953A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560500B204D3F11000953A0 /* LoginViewController.swift */; };
 		B560500F204D3F11000953A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B560500D204D3F11000953A0 /* Main.storyboard */; };
 		B5605011204D3F11000953A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5605010204D3F11000953A0 /* Assets.xcassets */; };
 		B5605014204D3F11000953A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5605012204D3F11000953A0 /* LaunchScreen.storyboard */; };
+		B560501C204D3F6C000953A0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B560501B204D3F6C000953A0 /* GoogleService-Info.plist */; };
+		B560501E204D4453000953A0 /* ChannelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B560501D204D4453000953A0 /* ChannelsTableViewController.swift */; };
+		B5605022204D459D000953A0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B5605015204D3F11000953A0 /* Info.plist */; };
+		B567C254204D4C8B00DF6739 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567C253204D4C8B00DF6739 /* Channel.swift */; };
+		B567C256204D5A0C00DF6739 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B567C255204D5A0C00DF6739 /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05D07A9848456E4401C33BD9 /* Pods-ChannelChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChannelChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChannelChat/Pods-ChannelChat.release.xcconfig"; sourceTree = "<group>"; };
+		782F1B03860F806E75921B11 /* Pods-ChannelChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChannelChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChannelChat/Pods-ChannelChat.debug.xcconfig"; sourceTree = "<group>"; };
 		B5605006204D3F11000953A0 /* ChannelChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChannelChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5605009204D3F11000953A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B560500B204D3F11000953A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B560500B204D3F11000953A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B560500E204D3F11000953A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5605010204D3F11000953A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5605013204D3F11000953A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5605015204D3F11000953A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B560501B204D3F6C000953A0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B560501D204D4453000953A0 /* ChannelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelsTableViewController.swift; sourceTree = "<group>"; };
+		B567C253204D4C8B00DF6739 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		B567C255204D5A0C00DF6739 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B567C25A204D771400DF6739 /* ChannelChat-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ChannelChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		E314D0AB23712E02028E3CCA /* Pods_ChannelChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChannelChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DF03E4FCDE2469D78768BF6 /* Pods_ChannelChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CCCA308022394F4A3B351AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E314D0AB23712E02028E3CCA /* Pods_ChannelChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5604FFD204D3F11000953A0 = {
 			isa = PBXGroup;
 			children = (
 				B5605008204D3F11000953A0 /* ChannelChat */,
 				B5605007204D3F11000953A0 /* Products */,
+				F324EE247749E036E380F80C /* Pods */,
+				1CCCA308022394F4A3B351AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,60 @@
 		B5605008204D3F11000953A0 /* ChannelChat */ = {
 			isa = PBXGroup;
 			children = (
-				B5605009204D3F11000953A0 /* AppDelegate.swift */,
-				B560500B204D3F11000953A0 /* ViewController.swift */,
-				B560500D204D3F11000953A0 /* Main.storyboard */,
-				B5605010204D3F11000953A0 /* Assets.xcassets */,
-				B5605012204D3F11000953A0 /* LaunchScreen.storyboard */,
-				B5605015204D3F11000953A0 /* Info.plist */,
+				B567C252204D4C7B00DF6739 /* Model */,
+				B5605021204D448F000953A0 /* View */,
+				B560501F204D446B000953A0 /* Controller */,
+				B5605020204D447F000953A0 /* Supporting Files */,
 			);
 			path = ChannelChat;
+			sourceTree = "<group>";
+		};
+		B560501F204D446B000953A0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B5605009204D3F11000953A0 /* AppDelegate.swift */,
+				B560500B204D3F11000953A0 /* LoginViewController.swift */,
+				B560501D204D4453000953A0 /* ChannelsTableViewController.swift */,
+				B567C255204D5A0C00DF6739 /* ChatViewController.swift */,
+				B567C25A204D771400DF6739 /* ChannelChat-Bridging-Header.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B5605020204D447F000953A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5605010204D3F11000953A0 /* Assets.xcassets */,
+				B5605015204D3F11000953A0 /* Info.plist */,
+				B560501B204D3F6C000953A0 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5605021204D448F000953A0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B560500D204D3F11000953A0 /* Main.storyboard */,
+				B5605012204D3F11000953A0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B567C252204D4C7B00DF6739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B567C253204D4C8B00DF6739 /* Channel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F324EE247749E036E380F80C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				782F1B03860F806E75921B11 /* Pods-ChannelChat.debug.xcconfig */,
+				05D07A9848456E4401C33BD9 /* Pods-ChannelChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5605018204D3F11000953A0 /* Build configuration list for PBXNativeTarget "ChannelChat" */;
 			buildPhases = (
+				71567EEA1574C63E56A37DE8 /* [CP] Check Pods Manifest.lock */,
 				B5605002204D3F11000953A0 /* Sources */,
 				B5605003204D3F11000953A0 /* Frameworks */,
 				B5605004204D3F11000953A0 /* Resources */,
+				8A5F074A3BBF6F0733014D5A /* [CP] Embed Pods Frameworks */,
+				C837F5A77777F8CDBB4BFD82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +170,7 @@
 				TargetAttributes = {
 					B5605005204D3F11000953A0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,19 +199,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5605014204D3F11000953A0 /* LaunchScreen.storyboard in Resources */,
+				B560501C204D3F6C000953A0 /* GoogleService-Info.plist in Resources */,
 				B5605011204D3F11000953A0 /* Assets.xcassets in Resources */,
+				B5605022204D459D000953A0 /* Info.plist in Resources */,
 				B560500F204D3F11000953A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		71567EEA1574C63E56A37DE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChannelChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5F074A3BBF6F0733014D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChannelChat/Pods-ChannelChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChannelChat/Pods-ChannelChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C837F5A77777F8CDBB4BFD82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChannelChat/Pods-ChannelChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5605002204D3F11000953A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B560500C204D3F11000953A0 /* ViewController.swift in Sources */,
+				B560500C204D3F11000953A0 /* LoginViewController.swift in Sources */,
+				B567C254204D4C8B00DF6739 /* Channel.swift in Sources */,
+				B560501E204D4453000953A0 /* ChannelsTableViewController.swift in Sources */,
+				B567C256204D5A0C00DF6739 /* ChatViewController.swift in Sources */,
 				B560500A204D3F11000953A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,14 +414,18 @@
 		};
 		B5605019204D3F11000953A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782F1B03860F806E75921B11 /* Pods-ChannelChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNXMK3EBZA;
-				INFOPLIST_FILE = ChannelChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChannelChat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrezo.ChannelChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChannelChat/Controller/ChannelChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +433,17 @@
 		};
 		B560501A204D3F11000953A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05D07A9848456E4401C33BD9 /* Pods-ChannelChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NNXMK3EBZA;
-				INFOPLIST_FILE = ChannelChat/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ChannelChat/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.amrezo.ChannelChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ChannelChat/Controller/ChannelChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
