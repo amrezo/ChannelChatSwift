@@ -119,6 +119,7 @@ class ChannelsTableViewController: UITableViewController {
         return cell
     }
     
+    
     func observeChannels() {
         
         channelRefHandle = channelRef.observe(.childAdded, with: { (snapshot) -> Void in

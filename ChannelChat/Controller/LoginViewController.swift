@@ -71,5 +71,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
     func textFieldDidEndEditing(_ textField: UITextField) {
         checkField(sender: nickNameField)
     }
+    
 }
 
