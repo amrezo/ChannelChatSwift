@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import JSQMessagesViewController
+import IQKeyboardManagerSwift
 
 class ChatViewController: JSQMessagesViewController {
     
@@ -35,6 +36,8 @@ class ChatViewController: JSQMessagesViewController {
         self.senderId = Auth.auth().currentUser?.uid
         
         observeMessages()
+        
+        IQKeyboardManager.sharedManager().enable = false
     }
     
     override func collectionView(_ collectionView: JSQMessagesCollectionView!, messageDataForItemAt indexPath: IndexPath!) -> JSQMessageData! {

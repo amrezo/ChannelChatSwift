@@ -12,5 +12,6 @@ target 'ChannelChat' do
   pod 'Firebase/Database'
 
   pod 'JSQMessagesViewController'
+  pod 'IQKeyboardManagerSwift'
 
 end
