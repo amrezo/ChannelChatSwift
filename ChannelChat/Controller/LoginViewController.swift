@@ -9,13 +9,16 @@
 import UIKit
 import Firebase
 
-class LoginViewController: UIViewController {
+class LoginViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var nickNameField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.nickNameField.delegate = self
+        loginButton.isEnabled = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -43,6 +46,30 @@ class LoginViewController: UIViewController {
         let channelsTVC = navVC.viewControllers.first as! ChannelsTableViewController
         
         channelsTVC.senderDisplayName = nickNameField?.text!
+    }
+    
+    // Hide keyboard when user taps outsides keyboard
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    // Hide keyboard when user presses on return
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        nickNameField.resignFirstResponder()
+        return true
+    }
+    
+    func checkField(sender: AnyObject) {
+        if (nickNameField.text?.isEmpty)! {
+            loginButton.isEnabled = false
+            
+        } else {
+            loginButton.isEnabled = true
+        }
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        checkField(sender: nickNameField)
     }
 }
 
